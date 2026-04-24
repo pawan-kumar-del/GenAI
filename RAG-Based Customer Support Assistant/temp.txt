@@ -1,0 +1,499 @@
+NovaTech Solutions
+ Customer Support Knowledge Base
+ Official Reference Manual — Version 3.2
+This document is the authoritative knowledge base for NovaTech Solutions customer support agents and the
+AI-powered support assistant. It covers all product lines, subscription plans, billing policies, technical
+troubleshooting, return and refund procedures, and escalation protocols.
+Last Updated: April 2025   |   Maintained by: Support Operations Team   |   Internal Use Only
+Table of Contents
+Section
+Topic
+Page
+1
+Company Overview & Products
+3
+2
+Subscription Plans & Pricing
+4
+3
+Account Management
+5
+4
+Billing & Payments
+6
+5
+Technical Troubleshooting
+7
+6
+Returns, Refunds & Cancellations
+9
+7
+Data Privacy & Security
+10
+8
+Service Level Agreements (SLA)
+11
+9
+Escalation & Human Handoff Protocol
+12
+10
+Frequently Asked Questions (FAQ)
+13
+Section 1: Company Overview & Products
+1.1 About NovaTech Solutions
+NovaTech Solutions is a B2B and B2C SaaS company providing cloud-based project management, team
+collaboration, and AI-powered productivity tools. Founded in 2015 and headquartered in Austin, Texas,
+NovaTech serves over 2 million users across 80 countries. Our mission is to make teams more productive
+through intelligent automation and seamless collaboration.
+1.2 Product Portfolio
+NovaTech Core (Free / Starter)
+Basic project management, up to 5 users, 5 GB storage, kanban boards, task tracking.
+NovaTech Pro (Paid — Individual/Team)
+Advanced project management, unlimited tasks, 50 GB storage, time tracking, integrations with Slack, Jira,
+GitHub.
+NovaTech Business (Paid — Business)
+All Pro features plus advanced reporting, 200 GB storage, priority support, SSO, audit logs, custom workflows.
+NovaTech Enterprise (Custom Pricing)
+All Business features plus dedicated infrastructure, 99.99% SLA, on-premise deployment, custom contracts,
+dedicated success manager.
+NovaTech AI Assistant (Add-on)
+AI-powered task suggestions, auto-scheduling, meeting summaries, and smart notifications. Available as
+add-on for Pro and above.
+NovaDocs (Bundled / Standalone)
+Collaborative document editor with version history, templates, and export to PDF/Word. Bundled with Business
+and Enterprise plans.
+NovaAnalytics (Add-on / Enterprise)
+Advanced BI dashboards, custom KPI tracking, data exports, team performance heatmaps.
+1.3 Supported Platforms
+ Web App: Chrome, Firefox, Safari, Edge (latest 2 versions supported)
+ Desktop: Windows 10/11, macOS 12+, Ubuntu 20.04+
+ Mobile: iOS 15+, Android 10+ (native apps available)
+ Browser Extension: Chrome and Firefox
+ API: RESTful API and Webhooks (Pro plan and above)
+Section 2: Subscription Plans & Pricing
+2.1 Plan Comparison Table
+Feature
+Core (Free)
+Pro ($12/mo)
+Business ($35/mo)
+Enterprise
+Users
+Up to 5
+Up to 25
+Up to 200
+Unlimited
+Storage
+5 GB
+50 GB
+200 GB
+Custom
+Projects
+3 active
+Unlimited
+Unlimited
+Unlimited
+Integrations
+2
+20+
+50+
+Custom
+API Access
+No
+Yes
+Yes
+Yes
+SSO / SAML
+No
+No
+Yes
+Yes
+Priority Support
+No
+Email only
+Email + Chat
+Dedicated Manager
+SLA Uptime
+99.5%
+99.9%
+99.95%
+99.99%
+Custom Workflows
+No
+Limited
+Yes
+Yes
+Audit Logs
+No
+No
+Yes
+Yes
+AI Assistant
+No
+Add-on ($5/mo)
+Add-on ($5/mo)
+Included
+2.2 Billing Cycles
+All paid plans are billed monthly or annually. Annual billing provides a 20% discount over monthly billing. Prices
+listed above are per-user per-month for monthly billing.
+2.3 Plan Upgrades and Downgrades
+ Upgrades take effect immediately; billing is prorated for the remainder of the current cycle.
+ Downgrades take effect at the start of the next billing cycle.
+ When downgrading, users must ensure data usage stays within new plan limits before cycle end.
+ Exceeding storage limits triggers a 7-day grace period; after that, uploads are blocked until resolved.
+ Enterprise pricing requires a custom quote from the sales team. Contact sales@novatech.io.
+2.4 Free Trial Policy
+NovaTech Pro and Business plans offer a 14-day free trial. No credit card is required for the trial. At the end of
+the trial, accounts automatically revert to the Core (Free) plan unless payment information is added. Data is
+retained for 30 days after trial expiry before deletion. Enterprise trials are available on request and last 30 days.
+Section 3: Account Management
+3.1 Account Creation
+Users can sign up at app.novatech.io using an email address and password, or via Google / Microsoft OAuth.
+Business and Enterprise accounts support domain-based SSO. After registration, users receive a verification
+email which must be confirmed within 48 hours.
+3.2 Password and Authentication
+ Minimum password length: 8 characters; must include uppercase, lowercase, and a number.
+ Two-Factor Authentication (2FA) is available via Authenticator App or SMS.
+ 2FA is mandatory for Business and Enterprise plan admins.
+ Password reset via 'Forgot Password' link; reset link valid for 1 hour.
+ After 5 failed login attempts, accounts are temporarily locked for 30 minutes.
+ Session timeout: 24 hours of inactivity on web; 7 days on mobile.
+3.3 User Roles and Permissions
+Role
+Description
+Can Invite Users
+Can Manage Billing
+Owner
+Full control of account and workspace
+Yes
+Yes
+Admin
+Manage workspace settings and members
+Yes
+No (view only)
+Member
+Create and manage assigned projects
+No
+No
+Guest
+View and comment on shared items only
+No
+No
+3.4 Account Deletion
+Account owners can delete their account from Settings > Account > Delete Account. Deletion is irreversible. All
+data is permanently removed within 30 days per GDPR requirements. Business and Enterprise accounts
+require email confirmation to support@novatech.io before deletion. If a billing cycle is active, any unused days
+are refunded as per the refund policy.
+Section 4: Billing & Payments
+4.1 Payment Methods
+ Credit and Debit Cards: Visa, Mastercard, American Express, Discover.
+ PayPal: Available for monthly plans only.
+ ACH Bank Transfer: Available for annual Business and Enterprise plans.
+ Wire Transfer: Enterprise only, minimum $5,000/year.
+ Invoicing: Available for Business (annual) and Enterprise customers.
+4.2 Invoice and Receipts
+Invoices are automatically generated and emailed to the billing contact on each renewal date. Past invoices are
+available in Settings > Billing > Invoice History. Invoices include itemized charges, tax information, and a unique
+invoice number. Custom purchase order (PO) numbers can be added for Enterprise customers.
+4.3 Failed Payments
+If a payment fails, NovaTech will retry the charge on days 3, 7, and 14 after the initial failure. The account
+owner receives email notifications at each retry. After 14 days without successful payment, the account is
+downgraded to the Core (Free) plan. Data is preserved for 30 days. To reactivate, update payment information
+in Settings > Billing.
+4.4 Taxes
+NovaTech charges applicable sales tax based on the billing address. US customers in applicable states are
+charged state sales tax. EU customers are charged VAT. Tax-exempt organizations must submit a valid
+exemption certificate to billing@novatech.io.
+4.5 Proration Rules
+ Mid-cycle upgrades: Charged prorated amount for upgrade immediately.
+ Mid-cycle user additions (Business/Enterprise): Charged per-user prorated daily rate.
+ Downgrades: No charge or credit; effective next billing cycle.
+ Annual to monthly switch: Allowed only at annual renewal date.
+Section 5: Technical Troubleshooting
+5.1 Login Issues
+Issue: Cannot log in with correct credentials
+Solution: Clear browser cookies and cache. Try an incognito/private window. Check if Caps Lock is on. If using
+SSO, verify your organization's SSO configuration. Reset password if needed. If issue persists after reset,
+contact support.
+Issue: Account locked after failed attempts
+Solution: Wait 30 minutes for automatic unlock. Alternatively, use 'Forgot Password' to reset credentials, which
+also unlocks the account immediately.
+Issue: 2FA code not working
+Solution: Ensure device time is synchronized (2FA codes are time-based). If using SMS, check for signal.
+Backup codes are available in Settings > Security. Contact support to disable 2FA if backup codes are lost.
+Issue: SSO login failing
+Solution: Verify the SSO domain in Settings > Security > SSO Configuration. Ensure the user's email domain
+matches the configured SSO domain. Check IdP (Identity Provider) logs for errors. Common IdPs: Okta, Azure
+AD, Google Workspace.
+5.2 Performance Issues
+Issue: App loading slowly
+Solution: Check internet connection speed (minimum recommended: 5 Mbps). Disable browser extensions.
+Clear cache. Try a different browser. Check status.novatech.io for ongoing incidents.
+Issue: File uploads failing
+Solution: Verify file size is within plan limits (Core: 25 MB/file, Pro: 100 MB/file, Business/Enterprise: 500
+MB/file). Check storage quota in Settings > Storage. Supported formats: PDF, DOCX, XLSX, PNG, JPG, MP4,
+ZIP. Corrupt files may fail silently.
+Issue: Notifications not working
+Solution: Check notification settings in Settings > Notifications. Ensure the NovaTech domain (novatech.io) is
+not blocked by email/spam filters. Browser notifications require permission to be granted in browser settings.
+Issue: Real-time sync not updating
+Solution: Refresh the page. Check network stability. If using mobile, ensure background app refresh is
+enabled. Real-time sync requires a stable WebSocket connection (port 443).
+5.3 Integration Troubleshooting
+Issue: Slack integration not posting
+Solution: Re-authorize the Slack app in Settings > Integrations > Slack. Ensure the bot has permission to post
+in the target channel. Check that the workspace admin has not restricted third-party app installs.
+Issue: GitHub sync not working
+Solution: Verify repository permissions. The GitHub token must have repo and webhook scopes. Check if the
+organization has OAuth app restrictions enabled. Re-connect by revoking and re-authorizing under Settings >
+Integrations > GitHub.
+Issue: Zapier/API returning 401 errors
+Solution: API key may be expired or revoked. Generate a new key in Settings > API > Manage Keys. Verify the
+API base URL is https://api.novatech.io/v2. Rate limits: Core=0, Pro=1,000 req/hr, Business=10,000 req/hr,
+Enterprise=custom.
+5.4 Data Issues
+ Deleted items are moved to Trash and recoverable within 30 days (Core: 7 days).
+ Permanent deletion occurs after trash retention period; not recoverable.
+ Data exports available in Settings > Data > Export (JSON or CSV format).
+ If data appears missing after a plan downgrade, it is archived, not deleted. Upgrade to re-access.
+ Bulk import via CSV supported for tasks and contacts. Template available at novatech.io/templates.
+Section 6: Returns, Refunds & Cancellations
+6.1 Refund Policy
+NovaTech operates a 30-day money-back guarantee for first-time subscribers on Pro and Business plans. The
+30-day period begins on the date of initial subscription. Refund requests must be submitted via
+support@novatech.io or through the in-app chat. Approved refunds are processed within 5–10 business days to
+the original payment method.
+6.2 Non-Refundable Situations
+ Renewals (monthly or annual) after the 30-day window has passed.
+ Add-on purchases (AI Assistant, NovaAnalytics) after 7 days of purchase.
+ Accounts suspended for Terms of Service violations.
+ Partial months when cancelling mid-cycle (monthly plan).
+ Promotionally priced or discounted subscriptions (unless stated otherwise).
+6.3 Cancellation Process
+To cancel a subscription, go to Settings > Billing > Cancel Plan. Cancellation takes effect at the end of the
+current billing period. Data is retained for 30 days post-cancellation before permanent deletion. Users will
+receive a confirmation email within 10 minutes of cancellation. Annual plan cancellations within 30 days receive
+a prorated refund for unused months. After 30 days, annual plans are non-refundable but remain active until the
+annual period ends.
+6.4 Disputed Charges
+If a customer does not recognize a charge, they should first check the invoice history in Settings > Billing. If the
+charge is unclear, contact support with the invoice number, transaction date, and amount. NovaTech will
+investigate within 2 business days. Opening a credit card chargeback without first contacting NovaTech support
+may result in account suspension during investigation.
+Section 7: Data Privacy & Security
+7.1 Data Storage and Location
+Customer data is stored on AWS infrastructure. Default region is US-East-1. Business and Enterprise
+customers can select their preferred data region: US (us-east-1), EU (eu-west-1), APAC (ap-southeast-1). Data
+residency selection is available during onboarding or via request to your account manager.
+7.2 Compliance Certifications
+ SOC 2 Type II: Audited annually. Certificate available on request.
+ ISO 27001: Certified. Last audit: January 2025.
+ GDPR: Fully compliant. DPA (Data Processing Agreement) available for Business and Enterprise.
+ HIPAA: Business Associate Agreement (BAA) available for Enterprise customers.
+ CCPA: Compliant. Privacy policy updated February 2025.
+7.3 Data Encryption
+All data is encrypted in transit using TLS 1.2 or higher. Data at rest is encrypted using AES-256. Encryption
+keys are managed via AWS KMS. Enterprise customers may request customer-managed encryption keys
+(CMEK).
+7.4 GDPR Data Subject Requests
+ Right to Access: Submit via Settings > Privacy > Download My Data or email privacy@novatech.io.
+ Right to Erasure: Email privacy@novatech.io with subject 'Erasure Request'. Response within 30 days.
+ Right to Portability: Data exported in JSON or CSV format within 30 days.
+ Right to Rectification: Update personal data in Settings > Profile or contact support.
+ Data Retention: Personal data retained for duration of account plus 30 days post-deletion.
+7.5 Security Incidents
+In the event of a security breach affecting customer data, NovaTech will notify affected customers within 72
+hours as required by GDPR. Notifications are sent to the account owner's email address. Security advisories
+are published at security.novatech.io. To report a vulnerability, email security@novatech.io.
+Section 8: Service Level Agreements (SLA)
+8.1 Uptime Commitments
+Plan
+Monthly Uptime Guarantee
+Scheduled Maintenance Window
+Compensation for Breach
+Core (Free)
+99.5%
+Saturday 2–4 AM UTC
+None
+Pro
+99.9%
+Saturday 2–4 AM UTC
+10% credit per 1hr downtime
+Business
+99.95%
+Saturday 1–3 AM UTC
+15% credit per 1hr downtime
+Enterprise
+99.99%
+By agreement
+20% credit per 30min downtime
+8.2 Support Response Times
+Plan
+Channel
+First Response SLA
+Resolution SLA
+Core
+Community forum only
+N/A (community-driven)
+N/A
+Pro
+Email
+24 business hours
+72 business hours
+Business
+Email + Live Chat
+4 business hours
+24 business hours
+Enterprise
+Email + Chat + Phone
+1 hour (24/7)
+4 hours (P1 issues)
+8.3 Incident Severity Definitions
+Priority
+Definition
+Example
+P1 — Critical
+Complete service outage or data loss
+All users cannot login; database corrupted
+P2 — High
+Major feature unavailable; workaround exists
+File uploads failing for all users
+P3 — Medium
+Minor feature issue affecting some users
+Notifications delayed by 30+ minutes
+P4 — Low
+Cosmetic issue or enhancement request
+UI text misaligned on a specific browser
+Section 9: Escalation & Human Handoff Protocol
+9.1 When to Escalate to a Human Agent
+The AI support assistant should escalate to a human agent in any of the following situations. Escalation
+ensures customer trust, compliance, and satisfaction on complex or sensitive issues.
+ Billing disputes involving charges over $200 or suspected fraudulent transactions.
+ Account recovery requests where identity verification is required.
+ Legal or compliance inquiries, including GDPR data deletion requests.
+ Customers expressing frustration, anger, or explicitly requesting a human agent.
+ Security incident reports or suspected data breaches.
+ Enterprise contract negotiations, renewals, or custom pricing requests.
+ Queries involving potential Terms of Service violations or account suspension appeals.
+ Technical issues not resolved after two troubleshooting attempts.
+ Any situation where the AI has low confidence in its response (below 0.65 threshold).
+ Requests involving sensitive personal or health information.
+9.2 Escalation Routing
+Issue Type
+Route To
+Contact
+Billing disputes
+Billing Specialist
+billing@novatech.io
+Technical (P1/P2)
+Senior Engineer On-Call
+oncall@novatech.io
+Legal / GDPR
+Compliance Officer
+privacy@novatech.io
+Enterprise Accounts
+Account Manager
+Dedicated manager assigned
+Security Incidents
+Security Team
+security@novatech.io
+General Escalation
+Tier 2 Support Queue
+support@novatech.io
+9.3 Escalation Message Template
+When escalating, the AI assistant should communicate the following to the customer:
+"I want to make sure you get the best help possible for this situation. I'm connecting you with a specialist from our support
+team who will be able to assist you further. Please expect a response within [SLA time based on plan]. Your case
+reference is [CASE_ID]. Thank you for your patience."
+Section 10: Frequently Asked Questions (FAQ)
+Q1. How do I upgrade my plan?
+Go to Settings > Billing > Change Plan. Select your desired plan and confirm. Upgrades take effect immediately
+with prorated billing. You can also contact support for assistance.
+Q2. Can I use NovaTech offline?
+NovaTech requires an internet connection for real-time features. The desktop app caches recent data for offline
+viewing, but editing is disabled offline. Changes made offline sync automatically when reconnected.
+Q3. How do I add team members?
+Go to Settings > Team > Invite Members. Enter email addresses and assign roles. Invitees receive an email
+with a join link valid for 7 days. On the Core plan, maximum team size is 5 members.
+Q4. What happens to my data if I cancel?
+Data is retained for 30 days after cancellation. You can export your data in Settings > Data > Export before the
+retention period ends. After 30 days, all data is permanently deleted.
+Q5. Can I have multiple workspaces?
+Yes. Pro users can create up to 3 workspaces. Business users can create unlimited workspaces. Each
+workspace is billed separately unless consolidated under an Enterprise account.
+Q6. How do I export project data?
+Go to Settings > Data > Export. Choose format (JSON or CSV) and select the projects to export. Export files
+are generated within 10 minutes and emailed to the account owner.
+Q7. Does NovaTech integrate with Google Workspace?
+Yes. NovaTech integrates with Google Calendar, Google Drive, and Gmail. Set up under Settings >
+Integrations > Google Workspace. Requires Google account authorization. Available for Pro and above.
+Q8. What is the maximum file size I can upload?
+Core: 25 MB per file. Pro: 100 MB per file. Business: 500 MB per file. Enterprise: Custom (up to 5 GB with
+configuration). Total storage per plan: Core 5 GB, Pro 50 GB, Business 200 GB, Enterprise custom.
+Q9. How does the AI Assistant work?
+The AI Assistant uses your project data to suggest task priorities, detect blockers, summarize meeting notes,
+and auto-schedule tasks. It does not share your data with third parties. AI features can be disabled in Settings >
+AI > Disable AI Features.
+Q10. How do I reset my 2FA?
+If you have backup codes, use one at login and reconfigure 2FA in Settings > Security. If backup codes are
+unavailable, contact support@novatech.io with account verification details. Identity verification will be required
+before 2FA is reset.
+Q11. Can I switch from monthly to annual billing?
+Yes. Go to Settings > Billing > Switch to Annual. You will be charged the annual rate immediately, minus credit
+for the unused portion of your current monthly cycle. The annual period begins immediately.
+Q12. Is there a student or nonprofit discount?
+Yes. Verified students and nonprofit organizations receive a 50% discount on Pro plans. Submit verification
+documents to discounts@novatech.io. Approved discounts apply within 3 business days.
+Q13. How do I contact support?
+Core plan users: community.novatech.io. Pro users: support@novatech.io. Business users: Email + live chat at
+app.novatech.io. Enterprise: Dedicated phone line provided at onboarding.
+Q14. What browsers are supported?
+Chrome (v90+), Firefox (v88+), Safari (v14+), Edge (v90+). Internet Explorer is not supported. For the best
+experience, use the latest version of Chrome or Firefox.
+Q15. How long does it take to process a refund?
+Approved refunds are processed within 5–10 business days to the original payment method. For PayPal,
+processing may take up to 5 additional days. A confirmation email is sent once the refund is initiated.
+Appendix A: Quick Reference — Key Contacts
+Department
+Email
+Notes
+General Support
+support@novatech.io
+Pro: 24hr, Business: 4hr, Enterprise: 1hr
+Billing
+billing@novatech.io
+Invoice disputes, failed payments
+Privacy / GDPR
+privacy@novatech.io
+Data requests, DPA
+Security
+security@novatech.io
+Vulnerabilities, incidents
+Sales / Enterprise
+sales@novatech.io
+Custom pricing, contracts
+Discounts
+discounts@novatech.io
+Student, nonprofit
+Status Page
+status.novatech.io
+Incidents, maintenance
+Community Forum
+community.novatech.io
+Core plan users, peer support
+Appendix B: Glossary
+SLA: Service Level Agreement — contractual uptime and response guarantees.
+SSO: Single Sign-On — allows login via a corporate identity provider.
+2FA: Two-Factor Authentication — second verification step at login.
+GDPR: General Data Protection Regulation — EU data privacy law.
+HIPAA: Health Insurance Portability and Accountability Act — US healthcare data law.
+CMEK: Customer-Managed Encryption Keys — customer controls encryption keys.
+P1/P2/P3/P4: Incident priority levels from critical to low.
+BAA: Business Associate Agreement — HIPAA-required agreement.
+DPA: Data Processing Agreement — GDPR-required agreement with processors.
+ACH: Automated Clearing House — US electronic bank transfer network.
+KMS: Key Management Service — AWS service for managing encryption keys.
+HITL: Human-in-the-Loop — escalation from automated to human agent.
+Proration: Adjusting a charge proportionally for partial billing periods.
+Workspace: A dedicated organizational environment within NovaTech.
+This document is confidential and intended for internal use by NovaTech Solutions support staff and authorized AI
+systems only. © 2025 NovaTech Solutions Inc. All rights reserved.
